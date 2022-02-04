@@ -3,13 +3,7 @@ import numpy as np
 import math
 
 
-'''
-19 a) Sa se genereze variabila Beta(3, 5) prin doua metode.
-
-Variabila Beta(a, b) poate fi generata cu ajutorul a doua variabile Gamma X1 si X2(conform teoremei -> are o complexitate mare) astfel, 
-variabila Beta va fi X1 / (X1 + X2).
-'''
-
+# 19 a) Sa se genereze variabila Beta(3, 5) prin doua metode.
 
 def gen_var_beta_1(a, b):
     # folosind distributia gamma
@@ -100,6 +94,7 @@ def pascal(p):
 
     # returnez variabila aleatoare X
     return X
+
 
 # II. Metoda inversa
 def metoda_inversa(p):
