@@ -6,7 +6,8 @@ import math
 '''
 19 a) Sa se genereze variabila Beta(3, 5) prin doua metode.
 
-Variabila Beta(a, b) poate fi generata cu ajutorul a doua variabile Gamma X1 si X2(conform teoremei -> are o complexitate mare) astfel, variabila Beta va fi X1 / (X1 + X2)
+Variabila Beta(a, b) poate fi generata cu ajutorul a doua variabile Gamma X1 si X2(conform teoremei -> are o complexitate mare) astfel, 
+variabila Beta va fi X1 / (X1 + X2).
 '''
 
 
@@ -142,10 +143,12 @@ def subpunct_b():
 
 
 if __name__ == "__main__":
+    print("--------------------------------")
     print("Subpunctul a")
-    print("--------------------------------------")
+    print("--------------------------------")
     verificare(3, 5)
     print()
+    print("--------------------------------")
     print("Subpunctul b")
     print("--------------------------------")
     subpunct_b()
